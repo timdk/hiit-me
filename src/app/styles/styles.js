@@ -4,17 +4,29 @@ export const styles = StyleSheet.create({
   container: {
     flex: 1,
     justifyContent: 'center',
-    alignItems: 'center',
-    backgroundColor: '#F5FCFF',
+    alignItems: 'center'
   },
-  welcome: {
+  fullButton: {
+    alignSelf: 'stretch',
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center'
+  },
+  createHeader: {
+    fontSize: 40,
+    fontWeight: 'bold'
+  },
+  createInput: {
+    fontSize: 25,
+    fontWeight: 'bold',
+    height: 50, 
+    width: 100, 
+    textAlign: 'center'
+  },
+  programmeHeader: {
     fontSize: 20,
-    textAlign: 'center',
-    margin: 10,
+    fontWeight: 'bold'
   },
-  instructions: {
-    textAlign: 'center',
-    color: '#333333',
-    marginBottom: 5,
-  },
+  timeLarge: { fontSize: 100, fontWeight: 'bold' },
+  timeSmall: { fontSize: 20 }
 });

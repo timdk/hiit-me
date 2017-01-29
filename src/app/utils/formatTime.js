@@ -1,3 +1,9 @@
+/**
+ * Format seconds as a number to a string representation. Seconds are rounded to 0dp.
+ * E.g. 90.1 -> '01:30'
+ * @param {number} seconds
+ * @return {string}
+ */
 export function formatTime(seconds){
     seconds = parseFloat(seconds);
     if (Number.isNaN(seconds)) {
